@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+
+  min-width: 320px;
+  text-align: center;
+
+  font-family: $main-font;
+  color: $text-color;
+
+  background-image: url("../img/Background.png");
+  background-color: $black-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: $main-font;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Druk Wide";
+  src: url("../fonts/Druk_Wide.woff2") format("woff2"), url("../fonts/Druk_Wide.woff") format("woff");
+  font-weight: $font-weight-reg;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Druk Text Wide";
+  src: url("../fonts/Druk_Text_Wide.woff2") format("woff2"), url("../fonts/Druk_Text_Wide.woff") format("woff");
+  font-weight: $font-weight-reg;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto.woff2") format("woff2"), url("../fonts/Roboto.woff") format("woff");
+  font-weight: $font-weight-reg;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/Roboto_Condensed.woff2") format("woff2"), url("../fonts/Roboto_Condensed.woff") format("woff");
+  font-weight: $font-weight-reg;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,22 @@
+.header__wrapper {
+  padding-top: 21px;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.header__logo {
+  margin-left: 5px;
+}
+
+@media (min-width: $desktop-width) {
+  .header__wrapper {
+    padding-top: 63px;
+    padding-bottom: 17px;
+  }
+
+  .header__logo {
+    margin: 0;
+    width: 179px;
+    height: 60px;
+  }
+}

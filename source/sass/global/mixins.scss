@@ -1,0 +1,13 @@
+@mixin basic-font {
+  margin: 0;
+  padding: 0;
+  font-style: $font-style;
+  font-weight: $font-weight-reg;
+}
+
+
+@mixin same-fs-lh($px){
+  @include basic-font;
+  font-size: $px;
+  line-height: $px;
+}
