@@ -7,12 +7,10 @@
     ESCAPE: 'Escape'
   };
 
-  let body = document.querySelector('body');
   let playBtn = document.querySelector('.call__button');
   let popupOpen = document.querySelector('.footer__rules');
   let popup = document.querySelector('.popup');
   let popupClose = popup.querySelector('.popup__close');
-  let popupNameInput = popup.querySelector('.popup-user-name');
 
   playBtn.addEventListener('click', function(evt) {
     evt.preventDefault();
@@ -20,7 +18,7 @@
   })
 
   let onPopupEscPress = function (evt) {
-    if (evt.key === EvtKeys.ESCAPE && popupNameInput !== document.activeElement) {
+    if (evt.key === EvtKeys.ESCAPE) {
       evt.preventDefault();
       closePopup();
     }
